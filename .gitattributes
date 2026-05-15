@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# 自動判定を無効化し、Unityの重要ファイルをバイナリデータとして保護する
+*.data -text
+*.wasm -text
+*.symbols.json -text
+
